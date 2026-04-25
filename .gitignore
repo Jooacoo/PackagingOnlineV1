@@ -1,0 +1,13 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editor / entorno
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.log
+
+# Opcional: si usás notas locales
+.env
+.env.local
