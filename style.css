@@ -127,6 +127,50 @@ code {
     color: var(--accent);
 }
 
+/* Móvil / tablet: una columna para que logo, menú y teléfono no se pisen */
+@media (max-width: 960px) {
+    .header-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.65rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .logo-container {
+        justify-self: unset;
+        width: 100%;
+    }
+
+    .logo-img {
+        max-height: 56px;
+        margin: 0 auto;
+    }
+
+    .main-nav {
+        justify-self: unset;
+        width: 100%;
+        justify-content: center;
+        row-gap: 0.35rem;
+    }
+
+    .header-actions {
+        justify-self: unset;
+        width: 100%;
+    }
+
+    .phone-link {
+        display: inline-block;
+        white-space: normal;
+        font-size: 0.9rem;
+        line-height: 1.35;
+        word-break: break-word;
+        max-width: 100%;
+    }
+}
+
 /* ---------- Hero (Inicio) — imagen de fondo ---------- */
 
 .hero {
