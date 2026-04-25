@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas — Packaging Online Argentina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo-marca.png" type="image/png">
+</head>
+
+<body>
+
+    <a class="whatsapp" href="https://wa.me/5491153022729" target="_blank" rel="noopener noreferrer"
+        aria-label="Abrir chat de WhatsApp"></a>
+
+    <header class="header">
+        <div class="header-banner">
+            <div class="logo-container">
+                <a href="index.html#inicio" class="logo-link">
+                    <img src="img/logo-marca.png" alt="Packaging Online Argentina" class="logo-img" width="260"
+                        height="78">
+                </a>
+            </div>
+            <nav class="main-nav" aria-label="Secciones principales">
+                <a href="index.html#inicio">Inicio</a>
+                <a href="index.html#nosotros">Nosotros</a>
+                <a href="index.html#productos">Productos</a>
+            </nav>
+            <div class="header-actions">
+                <a href="tel:+5491153022729" class="phone-link">Tel: +54 9 11 5302-2729</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-main">
+        <div class="back-links">
+            <a href="index.html">← Inicio</a>
+            <a href="productos.html">Catálogo completo</a>
+        </div>
+
+        <h1>Etiquetas</h1>
+        <p class="lead">
+            Etiquetas adhesivas o colgantes para identificar productos, lotes y marca. Podés indicar acabados (mate,
+            brillante) y si hay diseño asistido.
+        </p>
+
+        <img src="img/productos/etiquetas.svg" alt="Vista del producto: etiquetas" width="480" height="320">
+
+        <p>
+            Completá con formatos (rollo, pliego), tipo de adhesivo y tiempos de entrega. La imagen vive en
+            <code>img/productos/etiquetas.svg</code>.
+        </p>
+
+        <p>
+            <a class="btn btn-primary" href="https://wa.me/5491153022729" target="_blank"
+                rel="noopener noreferrer">Consultar por WhatsApp</a>
+        </p>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <p><strong>Packaging Online Argentina</strong></p>
+            <p class="footer-small">© <span id="year"></span></p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
